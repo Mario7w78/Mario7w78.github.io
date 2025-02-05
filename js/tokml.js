@@ -73,6 +73,7 @@ function showRouteOnMap(startNode, endNode) {
             const parser = new DOMParser();
             const kml = parser.parseFromString(kmltext, 'text/xml');
             const newRouteLayer = new L.KML(kml);
+            
 
             // Eliminar la ruta anterior si existe
             if (currentRouteLayer) {
@@ -82,7 +83,19 @@ function showRouteOnMap(startNode, endNode) {
             // Agregar la nueva capa al mapa
             map.addLayer(newRouteLayer);
             map.fitBounds(newRouteLayer.getBounds());
-
+            
+            newRouteLayer.getLayers().forEach(layer => {
+                if (layer instanceof L.Marker) {
+                    let customIcon = L.icon({
+                        iconUrl: 'router.png', // Cambia esto a la ruta de tu icono
+                        iconSize: [32, 32],   // Tamaño del icono
+                        iconAnchor: [16, 32], // Punto de anclaje del icono
+                        popupAnchor: [0, -32] // Ajuste para el popup
+                    });
+    
+                    layer.setIcon(customIcon);
+                }
+            });
             // Guardar la nueva capa como la actual
             currentRouteLayer = newRouteLayer;
         });

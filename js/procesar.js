@@ -11,15 +11,13 @@ document.getElementById('bttnProcces').addEventListener('click', ()=>{
 
     showRouteOnMap(nodoInicial, nodoFinal);
 
+
+    let obj = peruGraph.shortestPath(nodoInicial, nodoFinal);
+
+    let dist = obj.distance.toFixed(2);
+    document.querySelector('.distancia').innerHTML = 'Distancia: '+dist+' Km';
     /*
-    let obj = peruGraph.shortestPath(origen, destino);
-
-    
-
     let ruta = obj.path;
-    let dist = obj.distance;
-    console.log(ruta);
-
     let divpath = document.getElementById('path');
     let pa = '';
     ruta.forEach((re)=>{
@@ -27,7 +25,7 @@ document.getElementById('bttnProcces').addEventListener('click', ()=>{
     });
     divpath.innerHTML = pa;
 
-    document.querySelector('.distancia').innerHTML = 'Distancia: '+dist+' Km';
+    
     */
 })
 
