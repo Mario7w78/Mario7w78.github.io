@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Red Dorsal de Fibra Óptica</name>
+
+    <!-- Nodos en Lima -->
+    <Placemark>
+      <name>Nodo Lima 1</name>
+      <Point>
+        <coordinates>-76.92003,-12.01971</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 2</name>
+      <Point>
+        <coordinates>-77.06516,-12.08145</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 3</name>
+      <Point>
+        <coordinates>-77.11564,-12.00736</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 4</name>
+      <Point>
+        <coordinates>-77.19136,-11.5129</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 5</name>
+      <Point>
+        <coordinates>-76.61715,-11.49434</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 6</name>
+      <Point>
+        <coordinates>-76.40892,-11.88383</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 7</name>
+      <Point>
+        <coordinates>-75.93283,-12.48074</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 8</name>
+      <Point>
+        <coordinates>-76.37242,-13.13394</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 9</name>
+      <Point>
+        <coordinates>-77.58226,-11.13596</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 10</name>
+      <Point>
+        <coordinates>-76.99884,-10.48741</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 11</name>
+      <Point>
+        <coordinates>-76.77408,-10.68494</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 12</name>
+      <Point>
+        <coordinates>-76.9845,-10.50152</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 13</name>
+      <Point>
+        <coordinates>-77.75441,-10.78366</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Lima 14</name>
+      <Point>
+        <coordinates>-77.76397,-10.69905</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Nodos en Ica -->
+    <Placemark>
+      <name>Nodo Ica 1</name>
+      <Point>
+        <coordinates>-76.12895,-13.43898</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Ica 2</name>
+      <Point>
+        <coordinates>-75.96664,-13.72509</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Ica 3</name>
+      <Point>
+        <coordinates>-76.21349,-13.72509</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Ica 4</name>
+      <Point>
+        <coordinates>-75.73671,-13.9813</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Ica 5</name>
+      <Point>
+        <coordinates>-75.72656,-14.06992</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Ica 6</name>
+      <Point>
+        <coordinates>-75.18891,-14.54854</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Nodos en Arequipa -->
+    <Placemark>
+      <name>Nodo Arequipa 1</name>
+      <Point>
+        <coordinates>-73.36691,-15.7984</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Arequipa 2</name>
+      <Point>
+        <coordinates>-72.65159,-15.84868</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Arequipa 3</name>
+      <Point>
+        <coordinates>-72.48674,-16.09502</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Nodo Arequipa 4</name>
+      <Point>
+        <coordinates>-72.70458,-16.63171</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Conexiones en Lima -->
+    <Placemark>
+      <name>Conexión Lima 1 - Lima 2</name>
+      <LineString>
+        <coordinates>
+          -76.92003,-12.01971
+          -77.06516,-12.08145
+        </coordinates>
+      </LineString>
+    </Placemark>
+  
+
+    <Placemark>
+      <name>Conexión Lima 1 - Lima 3</name>
+      <LineString>
+        <coordinates>
+          -76.92003,-12.01971
+          -77.11564,-12.00736
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 2 - Lima 3</name>
+      <LineString>
+        <coordinates>
+          -77.06516,-12.08145
+          -77.11564,-12.00736
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 3 - Lima 4</name>
+      <LineString>
+        <coordinates>
+          -77.11564,-12.00736
+          -77.19136,-11.5129
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Conexión Lima 3 - Lima 5</name>
+      <LineString>
+        <coordinates>
+          -77.11564,-12.00736
+          -76.61715,-11.49434
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 4 - Lima 5</name>
+      <LineString>
+        <coordinates>
+          -77.19136,-11.5129
+          -76.61715,-11.49434
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 5 - Lima 6</name>
+      <LineString>
+        <coordinates>
+          -76.61715,-11.49434
+          -76.40892,-11.88383
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 1 - Lima 6</name>
+      <LineString>
+        <coordinates>
+          -76.92003,-12.01971
+          -76.40892,-11.88383
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 6 - Lima 7</name>
+      <LineString>
+        <coordinates>
+          -76.40892,-11.88383
+          -75.93283,-12.48074
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 1 - Lima 7</name>
+      <LineString>
+        <coordinates>
+          -76.92003,-12.01971
+          -75.93283,-12.48074
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 7 - Lima 8</name>
+      <LineString>
+        <coordinates>
+          -75.93283,-12.48074
+          -76.37242,-13.13394
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 2 - Lima 8</name>
+      <LineString>
+        <coordinates>
+          -77.06516,-12.08145
+          -76.37242,-13.13394
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Conexión Lima 7 - Ica 1</name>
+      <LineString>
+        <coordinates>
+          -75.93283,-12.48074
+          -76.12895,-13.43898
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 8 - Ica 1</name>
+      <LineString>
+        <coordinates>
+          -76.37242,-13.13394
+          -76.12895,-13.43898
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 4 - Lima 9</name>
+      <LineString>
+        <coordinates>
+          -77.19136,-11.5129
+          -77.58226,-11.13596
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 4 - Lima 11</name>
+      <LineString>
+        <coordinates>
+          -77.19136,-11.5129
+          -76.77408,-10.68494
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 5 - Lima 11</name>
+      <LineString>
+        <coordinates>
+          -76.61715,-11.49434
+          -76.77408,-10.68494
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 9 - Lima 10</name>
+      <LineString>
+        <coordinates>
+          -77.58226,-11.13596
+          -76.99884,-10.48741
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 9 - Lima 13</name>
+      <LineString>
+        <coordinates>
+          -77.58226,-11.13596
+          -77.75441,-10.78366
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 10 - Lima 11</name>
+      <LineString>
+        <coordinates>
+          -76.99884,-10.48741
+          -76.77408,-10.68494
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 14 - Lima 10</name>
+      <LineString>
+        <coordinates>
+          -77.76397,-10.69905
+          -76.99884,-10.48741
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 11 - Lima 12</name>
+      <LineString>
+        <coordinates>
+          -76.77408,-10.68494
+          -76.9845,-10.50152
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 12 - Lima 13</name>
+      <LineString>
+        <coordinates>
+          -76.9845,-10.50152
+          -77.75441,-10.78366
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 13 - Lima 14</name>
+      <LineString>
+        <coordinates>
+          -77.75441,-10.78366
+          -77.76397,-10.69905
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Conexiones en Ica -->
+    <Placemark>
+      <name>Conexión Ica 1 - Ica 2</name>
+      <LineString>
+        <coordinates>
+          -76.12895,-13.43898
+          -75.96664,-13.72509
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 1 - Ica 3</name>
+      <LineString>
+        <coordinates>
+          -76.12895,-13.43898
+          -76.21349,-13.72509
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+
+    <Placemark>
+      <name>Conexión Ica 2 - Ica 3</name>
+      <LineString>
+        <coordinates>
+          -75.96664,-13.72509
+          -76.21349,-13.72509
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 2 - Ica 4</name>
+      <LineString>
+        <coordinates>
+          -75.96664,-13.72509
+          -75.73671,-13.9813
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión lima 7 - Ica 4</name>
+      <LineString>
+        <coordinates>
+          -75.93283,-12.48074
+          -75.73671,-13.9813
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 3 - Ica 4</name>
+      <LineString>
+        <coordinates>
+          -76.21349,-13.72509
+          -75.73671,-13.9813
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 4 - Ica 5</name>
+      <LineString>
+        <coordinates>
+          -75.73671,-13.9813
+          -75.72656,-14.06992
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 4 - Ica 6</name>
+      <LineString>
+        <coordinates>
+          -75.73671,-13.9813
+          -75.18891,-14.54854
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 5 - Ica 6</name>
+      <LineString>
+        <coordinates>
+          -75.72656,-14.06992
+          -75.18891,-14.54854
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Ica 6 - Arequipa 1</name>
+      <LineString>
+        <coordinates>
+          -75.18891,-14.54854
+          -73.36691,-15.7984
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Conexiones en Arequipa -->
+    <Placemark>
+      <name>Conexión Arequipa 1 - Arequipa 2</name>
+      <LineString>
+        <coordinates>
+          -73.36691,-15.7984
+          -72.65159,-15.84868
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Arequipa 1 - Arequipa 3</name>
+      <LineString>
+        <coordinates>
+          -73.36691,-15.7984
+          -72.48674,-16.09502
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Conexión Arequipa 1 - Arequipa 4</name>
+      <LineString>
+        <coordinates>
+          -73.36691,-15.7984
+          -72.70458,-16.63171
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Arequipa 2 - Arequipa 3</name>
+      <LineString>
+        <coordinates>
+          -72.65159,-15.84868
+          -72.48674,-16.09502
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Lima 7 - Arequipa 2</name>
+      <LineString>
+        <coordinates>
+          -75.93283,-12.48074
+          -72.65159,-15.84868
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Conexión Arequipa 2 - Arequipa 4</name>
+      <LineString>
+        <coordinates>
+          -72.65159,-15.84868
+          -72.70458,-16.63171
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  
+    <Placemark>
+      <name>Conexión Arequipa 3 - Arequipa 4</name>
+      <LineString>
+        <coordinates>
+          -72.48674,-16.09502
+          -72.70458,-16.63171
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>

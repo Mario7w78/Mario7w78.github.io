@@ -1,0 +1,70 @@
+.conteiner-1{
+    display: flex;
+    
+    gap: 150px;
+    
+}
+
+.map{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 70vh;
+    border-color: rgb(60, 60, 60);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.regiones{
+    height: 30px;
+    margin-top: 20px;
+    font-family: "Poppins", serif;
+}
+
+.region-div{
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+    font-family: "Poppins", serif;
+}
+
+.choose{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#path{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+   
+ 
+}
+
+.paths{
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    height: 100px;
+    width: 100px;
+    transition: 1s ease;
+    font-size: 1vw;
+    
+}
+
+.paths:hover{
+    transform: scale(1.5);
+    
+}
+

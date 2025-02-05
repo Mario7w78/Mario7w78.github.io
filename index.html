@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmos de enrutamiento</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/options.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-kml/L.KML.js"></script>
+</head>
+<body>
+
+    <H1 style="text-align: center; font-family: 'Poppins', serif;" >ALGORITMOS DE ENRUTAMIENTO</H1>
+    <H3 style="text-align: center; font-family: 'Poppins', serif;" >Utilizando nodos de la Red Dorsal de Fibra optica entre Ica-Lima-Arequipa</H3>
+    <div class="conteiner-1">
+
+        <div id="map" class="mp"> </div>
+        
+        <div id ="choose">
+            <h3 style="font-family: 'Poppins', serif;">Seleccione el origen y el destino</h3>
+            <h3 style="font-family: 'Poppins', serif;">Algoritmo de Dijkstra</h3>
+            <div class="region-div">
+                <select id="nodo-1" class="nodos" name="nodos">
+                    <option value="" disabled selected>Selecciona un nodo inicial</option>
+                    <option value="Nodo Lima 1">Nodo Lima 1</option>
+                    <option value="Nodo Lima 2">Nodo Lima 2</option>
+                    <option value="Nodo Lima 3">Nodo Lima 3</option>
+                    <option value="Nodo Lima 4">Nodo Lima 4</option>
+                    <option value="Nodo Lima 5">Nodo Lima 5</option>
+                    <option value="Nodo Lima 6">Nodo Lima 6</option>
+                    <option value="Nodo Lima 7">Nodo Lima 7</option>
+                    <option value="Nodo Lima 8">Nodo Lima 8</option>
+                    <option value="Nodo Lima 9">Nodo Lima 9</option>
+                    <option value="Nodo Lima 10">Nodo Lima 10</option>
+                    <option value="Nodo Lima 11">Nodo Lima 11</option>
+                    <option value="Nodo Lima 12">Nodo Lima 12</option>
+                    <option value="Nodo Lima 13">Nodo Lima 13</option>
+                    <option value="Nodo Lima 14">Nodo Lima 14</option>
+                    <option value="Nodo Ica 1">Nodo Ica 1</option>
+                    <option value="Nodo Ica 2">Nodo Ica 2</option>
+                    <option value="Nodo Ica 3">Nodo Ica 3</option>
+                    <option value="Nodo Ica 4">Nodo Ica 4</option>
+                    <option value="Nodo Ica 5">Nodo Ica 5</option>
+                    <option value="Nodo Ica 6">Nodo Ica 6</option>
+                    <option value="Nodo Arequipa 1">Nodo Arequipa 1</option>
+                    <option value="Nodo Arequipa 2">Nodo Arequipa 2</option>
+                    <option value="Nodo Arequipa 3">Nodo Arequipa 3</option>
+                    <option value="Nodo Arequipa 4">Nodo Arequipa 4</option>
+                </select>
+                <p>Hacia</p>
+                <select id="nodo-2" class="nodos" name="nodos">
+                    <option value="" disabled selected>Selecciona un nodo final</option>
+                    <option value="Nodo Lima 1">Nodo Lima 1</option>
+                    <option value="Nodo Lima 2">Nodo Lima 2</option>
+                    <option value="Nodo Lima 3">Nodo Lima 3</option>
+                    <option value="Nodo Lima 4">Nodo Lima 4</option>
+                    <option value="Nodo Lima 5">Nodo Lima 5</option>
+                    <option value="Nodo Lima 6">Nodo Lima 6</option>
+                    <option value="Nodo Lima 7">Nodo Lima 7</option>
+                    <option value="Nodo Lima 8">Nodo Lima 8</option>
+                    <option value="Nodo Lima 9">Nodo Lima 9</option>
+                    <option value="Nodo Lima 10">Nodo Lima 10</option>
+                    <option value="Nodo Lima 11">Nodo Lima 11</option>
+                    <option value="Nodo Lima 12">Nodo Lima 12</option>
+                    <option value="Nodo Lima 13">Nodo Lima 13</option>
+                    <option value="Nodo Lima 14">Nodo Lima 14</option>
+                    <option value="Nodo Ica 1">Nodo Ica 1</option>
+                    <option value="Nodo Ica 2">Nodo Ica 2</option>
+                    <option value="Nodo Ica 3">Nodo Ica 3</option>
+                    <option value="Nodo Ica 4">Nodo Ica 4</option>
+                    <option value="Nodo Ica 5">Nodo Ica 5</option>
+                    <option value="Nodo Ica 6">Nodo Ica 6</option>
+                    <option value="Nodo Arequipa 1">Nodo Arequipa 1</option>
+                    <option value="Nodo Arequipa 2">Nodo Arequipa 2</option>
+                    <option value="Nodo Arequipa 3">Nodo Arequipa 3</option>
+                    <option value="Nodo Arequipa 4">Nodo Arequipa 4</option>
+                </select>
+                <button id="bttnProcces">Procesar</button>
+            </div>
+            <p class = "distancia"style="font-family: 'Poppins', serif;"></p>
+            <div id="path"></div>
+        </div>
+        
+
+    </div>
+
+
+
+    <script src="js/configmap.js"></script>
+    <script src="js/Dijkstra.js"></script>
+    <script src="js/tokml.js"></script>
+    <script src="js/procesar.js"></script>
+</body>
+</html>
