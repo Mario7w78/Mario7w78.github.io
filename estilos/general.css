@@ -1,6 +1,63 @@
-.mp{
-    margin-left: 20px;
-    margin-top: 40px;
-    height: 70vh;
-    width: 70vh;
+.mp {
+  margin-left: 20px;
+  margin-top: 40px;
+  height: 70vh;
+  width: 70vh;
+}
+
+body {
+  margin: 0;
+}
+
+H1 {
+  text-align: center;
+  font-family: "Poppins", serif;
+  background-color: rgb(255, 104, 39);
+  margin: 0;
+  color: white;
+  padding: 10px;
+}
+.h3sub {
+  text-align: center;
+  font-family: "Poppins", serif;
+
+  margin: 0;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+
+.od{
+    margin-top: 38px;
+    background-color: rgb(255, 104, 39);
+    color: white;
+    padding: 10px;
+    
+}
+
+
+p{
+    font-weight: bold;
+}
+
+button{
+    background-color: white;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+
+}
+button:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nodos{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-family: "Poppins", serif;
 }

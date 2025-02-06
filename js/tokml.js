@@ -51,9 +51,9 @@ function generateRouteKML(path, coordenadas) {
 }
 
 // Función para crear y mostrar la ruta en el mapa
-function showRouteOnMap(startNode, endNode) {
+function showRouteOnMap(startNode, endNode, algoritmo) {
     
-    const { path, distance } = peruGraph.shortestPath(startNode, endNode);
+    const { path, distance } = peruGraph.shortestPath(startNode, endNode, algoritmo);
     
     if (path.length === 0) {
         console.log("No se encontró una ruta válida");
